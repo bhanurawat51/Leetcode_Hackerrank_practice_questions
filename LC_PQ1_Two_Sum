@@ -22,8 +22,8 @@ Constraints:
 -109 <= target <= 109
 Only one valid answer exists.
 
-==============================================
-Answer
+=====================================================
+this is the answer provided by me
 
 class Solution:
     def twoSum(self, nums: list[int], target: int):
@@ -37,3 +37,15 @@ sol = Solution()
 nums = list(map(int, input("provide the array: ").split(',')))
 target = int(input("provide target : "))
 print(sol.twoSum(nums, target))
+
+
+=====================================================
+this is the best answer available
+
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        test_dict={}
+        for i, num in enumerate(nums):
+            if target - num in test_dict: #check number in dictionay keys, this checks all keys
+                return [test_dict[(target-num)], i] # return i and value of number in dictionary
+            test_dict[num] = i
