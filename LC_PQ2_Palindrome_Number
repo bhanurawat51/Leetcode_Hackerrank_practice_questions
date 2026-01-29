@@ -31,3 +31,10 @@ class Solution:
             return True
         else:
             return False
+===================================================+
+Best Solution on Leetcode                          |
+                                                   |
+class Solution:                                    |
+    def isPalindrome(self, x: int) -> bool:        |
+        return str(x)==str(x)[::-1]                |
+===================================================|
