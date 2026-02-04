@@ -1,3 +1,4 @@
+Leet Code Level : Easy
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
 Symbol       Value
@@ -45,3 +46,5 @@ It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 ==================================================================
 
 Answer will be coming soon in 2 parts
+part 1 : my answer that I wrote
+part 2: best answer on leetcode
